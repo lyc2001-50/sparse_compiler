@@ -1,1 +1,2 @@
 # sparse_compiler
+we want to make a sparse compiler to both have format and scheduling search on CPUs and GPUs, like Waco has done a union search, but it format is inherit from taco, which only has compress and uncompress on each dim, but hybrid format is widely use in ASpT and other algorithms, so considering hybrid format can have a large space to enhance compute efficency. SparseTIR provide a hybrid data format, but the format and scheduling is done by human not compiler, so currently we want to combine these.
